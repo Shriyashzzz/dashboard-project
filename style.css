@@ -326,7 +326,7 @@ ul{
 
 .trending{
     height: fit-content;
-    width: fit-content;
+    width: auto;
     ul{
         display:grid;
         grid-template: repeat(4, 1fr)
@@ -340,13 +340,15 @@ ul{
     align-self: center;
     gap:1rem;
     margin:0px;
-    padding:2px;
+    padding:0px;
     font-size: small;
     padding:0.4rem;
+    border-bottom: 1px dotted grey;
+   
     
     p{
         font-weight: bold;
-        font-size: medium;
+        font-size: large;
         margin:0px;
         padding:0px;
     }
