@@ -107,7 +107,6 @@ ul{
         font-size: clamp(0.8rem, 1vw, 1.5rem);        
         flex-wrap: wrap;
         gap:5px;
-        margin-left: 2rem;
         justify-content: flex-start;
 
         img{
@@ -303,6 +302,8 @@ ul{
     background-color:#FFFFFF;
     margin:1rem;
     border: 3px solid rgba(195, 99, 195, 0.6);
+    min-width: 0;
+
 }
 
 .announcements>ul{
