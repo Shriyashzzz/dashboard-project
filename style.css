@@ -433,6 +433,7 @@ ul{
     flex-direction: column;
     margin:10px;
     padding: 1rem;
+    transition: all 0.4s ease-in-out;
 
     .card-content>h5{
         font-weight: bolder;
@@ -455,20 +456,26 @@ ul{
 
     }
 
-
-
-
-
 }
+
+
+
 
 .card{
 
      .fav:hover, .link:hover, .share:hover{
         background-color: rgb(113, 126, 195, 0.5);
-    }
+        }
 
     .fav:active, .link:active, .share:active{
         background-color: rgb(149, 184, 209, 0.7);
-    }
+     }
+
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+    box-shadow:  5px 10px rgba(0,0,0,0.5);
 
 }
