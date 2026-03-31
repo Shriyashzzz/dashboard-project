@@ -1,6 +1,7 @@
 const search = document.querySelector('.search-container');
 const aside = document.querySelector('.aside-1');
 const headerbottom = document.querySelector('.header-bottom')
+const headertopleft = document.querySelector(".header-top");
 search.addEventListener('mouseenter', () => {
   if (window.innerWidth <= 600) {
     aside.style.display = 'none';
@@ -11,7 +12,7 @@ search.addEventListener('mouseenter', () => {
 
 });
 
-const headertopleft = document.querySelector(".header-top");
+
 search.addEventListener('mouseleave', () => {
     aside.style.display = '';
     headertopleft.style.setProperty("grid-column", "2 / span 4");
